@@ -1,8 +1,8 @@
 /*Initialisation*/
 
-DROP DATABASE paymybuddy;
-CREATE DATABASE paymybuddy;
-USE paymybuddy;
+DROP DATABASE IF EXISTS pay_my_buddy;
+CREATE DATABASE pay_my_buddy;
+USE pay_my_buddy;
 
 /*Creation des différentes tables*/
 CREATE TABLE user
